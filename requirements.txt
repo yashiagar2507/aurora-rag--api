@@ -5,8 +5,8 @@ python-dotenv
 sentence-transformers==2.2.2
 huggingface-hub==0.12.1
 faiss-cpu==1.12.0
-torch==2.9.0+cpu
-tokenizers==0.19.1
+torch==2.5.1+cpu
+tokenizers==0.15.2
 --extra-index-url https://download.pytorch.org/whl/cpu
 anthropic
 numpy
