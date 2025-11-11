@@ -96,6 +96,7 @@ Response:
 1️⃣ Clone the repo
 
 git clone https://github.com/yashiagar2507/aurora-rag-api.git
+
 cd aurora-rag-api
 
 
@@ -113,6 +114,3 @@ ANTHROPIC_API_KEY=sk-ant-api03-xxxxxxxxxxxxxxxx
 
 uvicorn main:app --port 8000
 
-
-5️⃣ Open Swagger Docs:
-👉 http://127.0.0.1:8000/docs
