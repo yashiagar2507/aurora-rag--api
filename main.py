@@ -176,3 +176,12 @@ async def names():
     msgs = await load_messages()
     names = sorted({m.get("user_name", "") for m in msgs if m.get("user_name")})
     return {"unique_names": names, "count": len(names)}
+@app.get("/")
+def home():
+    return {
+        "message": "✅ Aurora RAG API is live!",
+        "endpoints": {
+            "ask": "/ask?question=Your%20Query",
+            "docs": "/docs"
+        }
+    }
