@@ -105,7 +105,7 @@ https://aurora-rag-api.onrender.com/ask?question=What%20are%20Fatima's%20favorit
 Response:
 
 {
-  "answer": "Fatima appears to favor high-end, Michelin-starred restaurants like Le Bernardin, Osteria Francescana, and Alinea."
+  "answer": "Based on Fatima's message history, her favorite restaurants appear to be high-end, Michelin-starred establishments including:\n\n1. **Le Bernardin** (New York) - seafood fine dining\n2. **Osteria Francescana** (Italy) - 3-Michelin-star restaurant\n3. **Alinea** (Chicago) - 3-Michelin-star restaurant, where she specifically requests chef's table seating\n\nThese are all world-renowned, exclusive fine dining restaurants, indicating Fatima prefers exceptional culinary experiences at top-tier establishments."
 }
 
 🧰 Local Setup
