@@ -4,5 +4,5 @@ httpx
 python-dotenv
 sentence-transformers
 faiss-cpu
-numpy
 anthropic
+numpy
