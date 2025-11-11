@@ -1,8 +1,19 @@
-.env
-.env
-.env
+# Python cache and build files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and cache
 cache/
 *.npy
 *.bin
 *.index
+
+# Environment files
+.env
+
+# VSCode / Editor junk
+.vscode/
+.DS_Store
+.idea/
