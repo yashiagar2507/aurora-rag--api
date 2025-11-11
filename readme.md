@@ -17,11 +17,16 @@ and it replies with a grounded, AI-generated answer — inferred directly from r
 
 ⚙️ Tech Stack
 Component	Purpose
-FastAPI	Serves the REST API
-Sentence-Transformers	Creates dense vector embeddings
-FAISS	Performs similarity search on embeddings
-Anthropic Claude	Generates human-like, context-aware answers
-Python 3.10	Runtime environment
+FastAPI	- Serves the REST API
+
+Sentence-Transformers	- Creates dense vector embeddings
+
+FAISS	- Performs similarity search on embeddings
+
+Anthropic Claude	- Generates human-like, context-aware answers 
+
+Python 3.10	- Runtime environment 
+
 🧠 Bonus 1: Design Notes
 ✅ Chosen Approach — RAG (Retrieval-Augmented Generation) with Dense Embeddings
 
@@ -66,9 +71,13 @@ After exploring the /messages dataset, a few interesting issues were found:
 
 Issue	Description
 🌀 Duplicate entries	Some messages appeared multiple times
+
 📅 Mixed date formats	Both “March 3” and “2025-03-03” styles appeared
+
 🔁 Conflicting facts	Different messages mentioned different details (e.g., car counts)
+
 💭 Implicit preferences	Favorites or plans were implied rather than stated
+
 🕓 Inconsistent timestamps	Some messages were out of order or dated in the future
 
 Fixes used:
@@ -104,6 +113,7 @@ Response:
 1️⃣ Clone the repository
 
 git clone https://github.com/yashiagar2507/aurora-rag-api.git
+
 cd aurora-rag-api
 
 
