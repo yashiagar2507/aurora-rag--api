@@ -114,9 +114,24 @@ ANTHROPIC_API_KEY=sk-ant-api03-xxxxxxxxxxxxxxxx
 
 uvicorn main:app --port 8000
 
+📡 Live API Demo
+
+You can test the live deployed API here:
+👉 https://aurora-rag-api.onrender.com/docs
+
+That link opens the FastAPI Swagger UI, where you can:
+
+Click on the /ask endpoint
+
+Enter any natural-language question (e.g. “When is Layla traveling to London?”)
+
+Click “Execute” to see the JSON answer response
+
+
 Built by Yashi Agarwal
 GitHub: @yashiagar2507
 
 Model: Claude Sonnet 4.5 via Anthropic API
 Date: November 2025
+
 
