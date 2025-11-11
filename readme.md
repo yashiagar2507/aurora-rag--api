@@ -114,3 +114,9 @@ ANTHROPIC_API_KEY=sk-ant-api03-xxxxxxxxxxxxxxxx
 
 uvicorn main:app --port 8000
 
+Built by Yashi Agarwal
+GitHub: @yashiagar2507
+
+Model: Claude Sonnet 4.5 via Anthropic API
+Date: November 2025
+
